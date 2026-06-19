@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0
 
+dtb-y += lava_mt6833.dtb
+
 #ifdef OPLUS_BUG_STABILITY
 ifeq ($(strip $(CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE)), y)
 dtb-y += $(addsuffix .dtb, $(notdir $(subst $\",,$(CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES))))
