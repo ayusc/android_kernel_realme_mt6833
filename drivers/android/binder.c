@@ -1,3 +1,4 @@
+#define SA_TYPE_ONCE_UX 0
 /* binder.c
  *
  * Android IPC Subsystem
@@ -90,7 +91,6 @@
 #endif /*OPLUS_FEATURE_HANS_FREEZE*/
 
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-#include <linux/sched_assist/sched_assist_binder.h>
 #endif /* OPLUS_FEATURE_SCHED_ASSIST */
 #if IS_ENABLED(CONFIG_OPLUS_FEATURE_CPU_JANKINFO)
 #include <linux/cpu_jankinfo/jank_tasktrack.h>

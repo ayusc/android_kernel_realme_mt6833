@@ -125,7 +125,6 @@ obj-$(CONFIG_DAMON) += damon/
 #endif
 #endif /*defined(OPLUS_FEATURE_PROCESS_RECLAIM)
 #if defined(OPLUS_FEATURE_MULTI_FREEAREA)
-obj-$(CONFIG_PHYSICAL_ANTI_FRAGMENTATION) += multi_freearea.o
 #endif
 #ifdef OPLUS_FEATURE_HEALTHINFO
 #endif /*OPLUS_FEATURE_HEALTHINFO*/

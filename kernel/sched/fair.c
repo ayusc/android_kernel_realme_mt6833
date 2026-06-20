@@ -1,3 +1,9 @@
+#include <linux/cpumask.h>
+#define SA_TYPE_ONCE_UX 0
+#define SA_TYPE_TURBO 0
+#define last_wake_ts last_sleep_ts
+struct ux_sched_cls { struct cpumask cpus; };
+struct ux_sched_cputopo { struct ux_sched_cls sched_cls[16]; };
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Completely Fair Scheduling (CFS) Class (SCHED_NORMAL/SCHED_BATCH)

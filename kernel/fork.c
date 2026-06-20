@@ -108,7 +108,6 @@
 #define CREATE_TRACE_POINTS
 #include <trace/events/task.h>
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-#include <linux/sched_assist/sched_assist_fork.h>
 #endif /* OPLUS_FEATURE_SCHED_ASSIST */
 
 #if defined (OPLUS_FEATURE_HEALTHINFO) && defined (CONFIG_OPLUS_JANK_INFO)

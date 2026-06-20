@@ -1,3 +1,4 @@
+#define AGING 999
 // SPDX-License-Identifier: GPL-2.0
 /*
  * ring buffer based function tracer
@@ -56,7 +57,6 @@
 #endif
 
 /* #ifdef OPLUS_BUG_STABILITY */
-#include <soc/oplus/system/oplus_project.h>
 /* #endif */
 
 /*

@@ -28,7 +28,6 @@
  */
 #include "sched.h"
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-#include <linux/sched_assist/sched_assist_common.h>
 #endif /* OPLUS_FEATURE_SCHED_ASSIST */
 
 /* Convert between a 140 based task->prio, and our 102 based cpupri */
