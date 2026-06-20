@@ -61,10 +61,8 @@
 #endif /*OPLUS_FEATURE_HANS_FREEZE*/
 
 #ifdef OPLUS_BUG_STABILITY
-#include <soc/oplus/system/oppo_process.h>
 #endif
 #if defined(OPLUS_FEATURE_SCHED_ASSIST)
-#include <linux/sched_assist/sched_assist_common.h>
 #endif /* OPLUS_FEATURE_SCHED_ASSIST */
 
 /*

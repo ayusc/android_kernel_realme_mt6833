@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 /******************************************************************************
  *
  * This file is provided under a dual license.  When you use or
@@ -72,7 +76,6 @@
 #include "rlm_txpwr_init.h"
 //#ifdef OPLUS_FEATURE_WIFI_CUSTOMER_NVRAM
 //#CONNECTIVITY.WIFI.HARDWARE.FTM.1948379, Add for distinguish wifi.cfg at runtime.
-#include <soc/oplus/system/oplus_project.h>
 //#endif /* OPLUS_FEATURE_WIFI_CUSTOMER_NVRAM */
 
 //#ifdef OPLUS_BUG_COMPATIBILITY

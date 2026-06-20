@@ -1,3 +1,4 @@
+#undef OPLUS_FEATURE_SCHED_ASSIST
 /*
  * kernel/workqueue.c - generic async execution with shared worker pool
  *
@@ -52,7 +53,6 @@
 
 #include "workqueue_internal.h"
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-#include <linux/sched_assist/sched_assist_common.h>
 #endif
 
 enum {

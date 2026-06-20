@@ -1,3 +1,5 @@
+#define MM_FB_KEY_RATELIMIT_1H 0
+#define mm_fb_display_kevent(...) do {} while(0)
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -21,7 +23,6 @@
 #include <linux/sched.h>
 #include <uapi/linux/sched/types.h>
 #ifdef OPLUS_BUG_STABILITY
-#include <soc/oplus/system/oplus_mm_kevent_fb.h>
 #endif
 
 #include "mtk_drm_arr.h"

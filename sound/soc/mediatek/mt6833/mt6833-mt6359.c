@@ -43,7 +43,6 @@
 #endif /*OPLUS_BUG_COMPATIBILITY*/
 
 #ifdef OPLUS_BUG_COMPATIBILITY
-#include "../../codecs/audio/sia81xx/sia81xx_aux_dev_if.h"
 #endif  /*OPLUS_BUG_COMPATIBILITY*/
 
 static const char *const mt6833_spk_type_str[] = {MTK_SPK_NOT_SMARTPA_STR,

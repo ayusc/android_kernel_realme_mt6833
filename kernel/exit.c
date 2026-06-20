@@ -73,7 +73,6 @@
 #endif
 
 #ifdef OPLUS_BUG_STABILITY
-#include <soc/oplus/system/oppo_process.h>
 #endif
 
 #ifdef CONFIG_OPLUS_FEATURE_UID_PERF
