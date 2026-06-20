@@ -173,7 +173,6 @@ config DRM_PANEL_OPLUS21101_NT36672C_TM_CPHY_DSI_VDO
           to host.
 
 config DRM_PANEL_OPLUS21015_BOE_NT37701_1080P_DSI_CMD
-        tristate "oplus21015 boe nt37701 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -182,7 +181,6 @@ config DRM_PANEL_OPLUS21015_BOE_NT37701_1080P_DSI_CMD
           mode panel. The panel has a 1080x2400 resolution and uses
 
 config DRM_PANEL_OPLUS21015_TIANMA_NT37701_42_1080P_DSI_CMD
-        tristate "oplus21015 tianma nt37701 42 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -193,7 +191,6 @@ config DRM_PANEL_OPLUS21015_TIANMA_NT37701_42_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS21015_BOE_NT37701_2FTP_1080P_DSI_CMD
-        tristate "oplus21015 boe nt37701 2ftp 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -202,7 +199,6 @@ config DRM_PANEL_OPLUS21015_BOE_NT37701_2FTP_1080P_DSI_CMD
           mode panel. The panel has a 1080x2400 resolution and uses
 
 config DRM_PANEL_OPLUS21015_TIANMA_ILI7838_1080P_DSI_CMD
-        tristate "oplus21015 tianma ili7838 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -213,7 +209,6 @@ config DRM_PANEL_OPLUS21015_TIANMA_ILI7838_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS21015_BOE_B12_NT37701_1080P_DSI_CMD
-        tristate "oplus21015 boe b12 nt37701 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -222,7 +217,6 @@ config DRM_PANEL_OPLUS21015_BOE_B12_NT37701_1080P_DSI_CMD
           mode panel. The panel has a 1080x2400 resolution and uses
 
 config DRM_PANEL_OPLUS2169E_SAMSUNG_AMS643AG01_1080P_DSI_CMD
-        tristate "oplus2169E samsung ams643ag01 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -233,7 +227,6 @@ config DRM_PANEL_OPLUS2169E_SAMSUNG_AMS643AG01_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS22612_TIANMA_ILI7838A_FHD_DSI_CMD
-        tristate "oplus22612 TM FHD DPHY cmd mode panel"
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -244,7 +237,6 @@ config DRM_PANEL_OPLUS22612_TIANMA_ILI7838A_FHD_DSI_CMD
           MIPI DSI interface to host.
 
 config DRM_PANEL_OPLUS22612_TIANMA_ILI7838A_T7_PLUS_FHD_DSI_CMD
-        tristate "oplus22612 TM T7 plus FHD DPHY cmd mode panel"
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -255,7 +247,6 @@ config DRM_PANEL_OPLUS22612_TIANMA_ILI7838A_T7_PLUS_FHD_DSI_CMD
           MIPI DSI interface to host.
 
 config DRM_PANEL_OPLUS20181_SAMSUNG_AMS643YE01_1080P_DSI_CMD
-        tristate "oplus20181 samsung ams643ye01 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -266,7 +257,6 @@ config DRM_PANEL_OPLUS20181_SAMSUNG_AMS643YE01_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS21081_SAMSUNG_AMS643AG01_1080P_DSI_CMD
-        tristate "oplus21081 samsung ams643ag01 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -277,7 +267,6 @@ config DRM_PANEL_OPLUS21081_SAMSUNG_AMS643AG01_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS21851_SAMSUNG_AMS643AG01_1080P_DSI_CMD
-        tristate "oplus21851 samsung ams643ag01 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -288,7 +277,6 @@ config DRM_PANEL_OPLUS21851_SAMSUNG_AMS643AG01_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20151_SAMSUNG_AMS643_1080P_DSI_VDO
-        tristate "oplus20151 samsung ams643 1080p dsi vdo "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -299,7 +287,6 @@ config DRM_PANEL_OPLUS20151_SAMSUNG_AMS643_1080P_DSI_VDO
           to host.
 
 config DRM_PANEL_OPLUS20391_SAMSUNG_AMS643_1080P_DSI_VDO
-        tristate "oplus20391 samsung ams643 1080p dsi vdo "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -310,7 +297,6 @@ config DRM_PANEL_OPLUS20391_SAMSUNG_AMS643_1080P_DSI_VDO
           to host.
 
 config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_EVT_1080P_DSI_CMD
-        tristate "oplus20615 samsung ams64ye01 evt 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -321,7 +307,6 @@ config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_EVT_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_EVT2_1080P_DSI_CMD
-        tristate "oplus20615 samsung ams64ye01 evt2 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -332,7 +317,6 @@ config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_EVT2_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_PVT_1080P_DSI_CMD
-        tristate "oplus20615 samsung ams64ye01 pvt 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -343,7 +327,6 @@ config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_PVT_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20131_BOE_NT37800_1080P_DSI_CMD
-        tristate "oplus20131 boe nt37800 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -354,7 +337,6 @@ config DRM_PANEL_OPLUS20131_BOE_NT37800_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20131_TIANMA_NT37701_32_1080P_DSI_CMD
-        tristate "oplus20131 tianma nt37701 32 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -365,7 +347,6 @@ config DRM_PANEL_OPLUS20131_TIANMA_NT37701_32_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20131_SAMSUNG_ANA6705_1080P_DSI_CMD
-        tristate "oplus20131 samsung ana6705 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -376,7 +357,6 @@ config DRM_PANEL_OPLUS20131_SAMSUNG_ANA6705_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20131_TIANMA_NT37701_1080P_DSI_CMD
-        tristate "oplus20131 tianma nt37701 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1073,7 +1053,6 @@ config DRM_PANEL_SC_NT36672C_VDO_120HZ
 	  MIPI DSI interface to host.
 
 config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_1080P_DSI_CMD
-        tristate "oplus20615 samsung ams64ye01 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1084,7 +1063,6 @@ config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE01_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE05_1080P_DSI_CMD
-        tristate "oplus20615 samsung ams64ye05 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1095,7 +1073,6 @@ config DRM_PANEL_OPLUS20615_SAMSUNG_AMS643YE05_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20171_BOE_NT37701_1080P_DSI_CMD
-        tristate "oplus20171 boe nt37701 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1104,7 +1081,6 @@ config DRM_PANEL_OPLUS20171_BOE_NT37701_1080P_DSI_CMD
           mode panel. The panel has a 1080x2400 resolution and uses
 
 config DRM_PANEL_OPLUS20171_TIANMA_NT37701_42_1080P_DSI_CMD
-        tristate "oplus20171 tianma nt37701 42 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1115,7 +1091,6 @@ config DRM_PANEL_OPLUS20171_TIANMA_NT37701_42_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS20171_SAMSUNG_ANA6705_1080P_DSI_CMD
-        tristate "oplus20171 samsung ana6705 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1126,7 +1101,6 @@ config DRM_PANEL_OPLUS20171_SAMSUNG_ANA6705_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS21127_SAMSUNG_AMS643AG01_1080P_DSI_CMD
-        tristate "oplus21127 samsung ams643ag01 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE
@@ -1137,7 +1111,6 @@ config DRM_PANEL_OPLUS21127_SAMSUNG_AMS643AG01_1080P_DSI_CMD
           to host.
 
 config DRM_PANEL_OPLUS_SAMSUNG_AMS643YE04_1080P_DSI_CMD
-        tristate "oplus samsung ams64ye04 1080p dsi cmd "
         depends on OF
         depends on DRM_MIPI_DSI
         depends on BACKLIGHT_CLASS_DEVICE

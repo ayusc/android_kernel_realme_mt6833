@@ -86,7 +86,6 @@ config OPLUS_CRC_CHECK_SUPPORT
     bool "Support Oplus Panel Crc Check"
     default n
     help
-      This config decide if support oplus panel crc check solution
       If you are not sure about this, do not set it to y
 
 config MTK_SLD_SUPPORT

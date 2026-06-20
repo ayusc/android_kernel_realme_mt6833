@@ -130,7 +130,6 @@ obj-$(CONFIG_ZONE_DEVICE) += memremap.o
 obj-$(CONFIG_RSEQ) += rseq.o
 
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-obj-y += sched_assist/
 #endif /* OPLUS_FEATURE_SCHED_ASSIST */
 
 $(obj)/configs.o: $(obj)/config_data.h

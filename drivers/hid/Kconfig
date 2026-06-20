@@ -1034,17 +1034,13 @@ config HID_XINMO
 	if you have a Xin-Mo Dual Arcade controller.
 
 config HID_ZEROPLUS
-	tristate "Zeroplus based game controller support"
 	depends on HID
 	---help---
-	  Say Y here if you have a Zeroplus based game controller.
 
 config ZEROPLUS_FF
-	bool "Zeroplus based game controller force feedback support"
 	depends on HID_ZEROPLUS
 	select INPUT_FF_MEMLESS
 	---help---
-	  Say Y here if you have a Zeroplus based game controller and want
 	  to have force feedback support for it.
 
 config HID_ZYDACRON

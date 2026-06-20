@@ -65,7 +65,6 @@ obj-$(CONFIG_AW8697_HAPTIC)		+= aw8697_haptic/
 obj-$(CONFIG_MTK_LCM)		+= oplus/
 #endif
 
-obj-$(CONFIG_OPLUS_MISC_HEALTHONFO)		+= oplus_misc_healthinfo/
 #ifdef OPLUS_FEATURE_TP_BASIC
 obj-$(CONFIG_SIM_DETECT)	+= sim_detect.o
 #endif

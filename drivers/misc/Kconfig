@@ -567,5 +567,4 @@ source "drivers/misc/mediatek/Kconfig"
 source "drivers/misc/tri_state_key/Kconfig"
 #endif CONFIG_OPLUS_TRIKEY_HALL
 source "drivers/misc/aw8697_haptic/Kconfig"
-source "drivers/misc/oplus_misc_healthinfo/Kconfig"
 endmenu

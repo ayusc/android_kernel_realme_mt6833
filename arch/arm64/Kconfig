@@ -1545,4 +1545,3 @@ if CRYPTO
 source "arch/arm64/crypto/Kconfig"
 endif
 
-source "arch/arm64/kernel/rootguard/Kconfig"
