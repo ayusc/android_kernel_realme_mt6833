@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -20,7 +24,6 @@
 #include "mach/mtk_thermal.h"
 #include <linux/uidgid.h>
 #include <linux/slab.h>
-#include <soc/oplus/system/oppo_project.h>
 #include <linux/power_supply.h>
 #include <linux/iio/consumer.h>
 #include <linux/kthread.h>	/* For Kthread_run */

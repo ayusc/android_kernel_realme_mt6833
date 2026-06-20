@@ -1,3 +1,5 @@
+#define is_project(...) 0
+#define is_support_new_arch_func(...) 0
 #define AGING 999
 #define PREVERSION 998
 #define HIGH_TEMP_AGING 997

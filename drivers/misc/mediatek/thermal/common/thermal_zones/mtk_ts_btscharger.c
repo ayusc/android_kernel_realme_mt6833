@@ -1,3 +1,8 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
+#define get_eng_version() 0
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2019 MediaTek Inc.
@@ -22,7 +27,6 @@
 #if defined(CONFIG_MEDIATEK_MT6577_AUXADC)
 #include <linux/iio/consumer.h>
 #endif
-#include <soc/oplus/system/oplus_project.h>
 
 int __attribute__ ((weak))
 IMM_IsAdcInitReady(void)

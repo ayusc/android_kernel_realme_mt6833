@@ -1,3 +1,8 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
+#define get_eng_version() 0
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -15,7 +20,6 @@
 #include <linux/printk.h>
 #include <linux/types.h>
 #include <linux/kobject.h>
-#include <soc/oplus/system/oplus_project.h>
 #include "mt-plat/mtk_thermal_monitor.h"
 
 #if 1

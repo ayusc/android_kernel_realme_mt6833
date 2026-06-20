@@ -1,3 +1,8 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
+#define get_eng_version() 0
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -20,7 +25,6 @@
 #include "mt_dramc.h"
 #include <linux/uidgid.h>
 #include <linux/slab.h>
-#include <soc/oplus/system/oplus_project.h>
 
 static kuid_t uid = KUIDT_INIT(0);
 static kgid_t gid = KGIDT_INIT(1000);

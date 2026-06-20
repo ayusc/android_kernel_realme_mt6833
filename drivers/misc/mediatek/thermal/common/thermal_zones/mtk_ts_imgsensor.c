@@ -1,3 +1,8 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
+#define get_eng_version() 0
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -24,7 +29,6 @@
 #include "kd_camera_feature.h"
 #include "kd_imgsensor_define.h"
 #include "kd_imgsensor_api.h"
-#include <soc/oplus/system/oplus_project.h>
 
 /*=============================================================
  * Weak function
