@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -75,7 +79,6 @@ static int pt_is_low(int pt_low_vol, int pt_low_bat, int pt_over_cur);
 #endif
 
 #ifdef OPLUS_FEATURE_CAMERA_COMMON
-#include <soc/oplus/system/oppo_project.h>
 extern const struct flashlight_device_id flashlight_id_dual[];
 extern const struct flashlight_device_id flashlight_id_single[];
 extern const struct flashlight_device_id flashlight_id_zhaoyun[];

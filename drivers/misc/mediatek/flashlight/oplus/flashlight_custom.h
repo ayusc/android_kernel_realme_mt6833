@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 /*
  * Copyright (C) 2017 MediaTek Inc.
  *
@@ -15,7 +19,6 @@
 #define __FLASHLIGHT_CUSTOM_CTRL_H__
 
 #include <linux/types.h>
-#include <soc/oplus/system/oplus_project.h>
 
 #include "richtek/rt-flashlight.h"
 #include "../flashlight-core.h"

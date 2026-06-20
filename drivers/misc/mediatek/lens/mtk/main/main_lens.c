@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -37,7 +41,6 @@
 
 #include "lens_info.h"
 #include "lens_list.h"
-#include <soc/oplus/system/oplus_project.h>
 
 #define AF_DRVNAME "MAINAF"
 

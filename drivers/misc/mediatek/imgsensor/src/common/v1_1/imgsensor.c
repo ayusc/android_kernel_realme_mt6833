@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -55,7 +59,6 @@
 #define OPLUS_FEATURE_CAMERA_COMMON
 #endif
 #ifdef OPLUS_FEATURE_CAMERA_COMMON
-#include <soc/oplus/system/oplus_project.h>
 #include "imgsensor_eeprom.h"
 #include "imgsensor_hwcfg_custom.h"
 #endif

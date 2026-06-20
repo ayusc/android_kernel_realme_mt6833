@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0+
 /*
  * Mediatek 8250 driver.
@@ -22,7 +26,6 @@
 #include "mt-plat/mtk_printk_ctrl.h"
 #ifdef OPLUS_FEATURE_CHG_BASIC
 #include <linux/pinctrl/consumer.h>
-#include <soc/oplus/system/oplus_project.h>
 #include <mt-plat/mtk_boot.h>
 #endif
 #include "8250.h"

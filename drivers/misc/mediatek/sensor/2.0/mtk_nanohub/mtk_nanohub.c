@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2020 MediaTek Inc.
@@ -22,7 +26,6 @@
 #include <linux/delay.h>
 #include <uapi/linux/sched/types.h>
 #include <scp.h>
-#include <soc/oplus/system/oppo_project.h>
 #include "mtk_nanohub.h"
 #include "comms.h"
 #include "hf_manager.h"
@@ -31,7 +34,6 @@
 
 extern int __init nanohub_init(void);
 #ifdef OPLUS_FEATURE_SENSOR_ALGORITHM
-#include "../oplus_sensor_devinfo/sensor_devinfo.h"
 #include <mt-plat/upmu_common.h>
 #include <linux/regulator/consumer.h>
 #include <linux/of_gpio.h>

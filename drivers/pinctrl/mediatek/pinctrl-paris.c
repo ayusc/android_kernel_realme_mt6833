@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * MediaTek Pinctrl Paris Driver, which implement the vendor per-pin
@@ -17,7 +21,6 @@
 
 /*****************************************************************/
 #ifdef OPLUS_FEATURE_CHG_BASIC
-#include <soc/oplus/system/oplus_project.h>
 #endif
 /*****************************************************************/
 

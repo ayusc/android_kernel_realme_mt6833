@@ -1,3 +1,9 @@
+#undef OPLUS_FEATURE_CHG_BASIC
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
+#define PCB_VERSION_EVT1 1
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
  * Copyright (c) 2021 MediaTek Inc.
@@ -131,9 +137,7 @@ extern int oplus_get_prop_status(void);
 extern bool oplus_chg_check_chip_is_null(void);
 extern int mt6360_get_batid_volt(int *volt);
 #include <soc/oplus/device_info.h>
-#include <soc/oplus/system/oplus_project.h>
 #include <linux/gpio.h>
-#include "../../../oplus/oplus_gauge.h"
 extern bool is_fuelgauge_apply(void);
 bool is_fuelgauge_apply(void)
 {

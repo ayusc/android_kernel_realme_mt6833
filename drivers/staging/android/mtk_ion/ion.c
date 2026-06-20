@@ -1,3 +1,6 @@
+#include <linux/atomic.h>
+#define ion_cnt_enable 0
+static atomic_long_t ion_total_size;
 // SPDX-License-Identifier: GPL-2.0
 /*
  * drivers/staging/android/mtk_ion/ion.c

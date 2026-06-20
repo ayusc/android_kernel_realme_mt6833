@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 /*
  * Copyright (C) 2015 MediaTek Inc.
  *
@@ -23,7 +27,6 @@
 #include <linux/uaccess.h>
 
 #include "lens_info.h"
-#include <soc/oplus/system/oppo_project.h>
 
 #define AF_DRVNAME "BU64253AF_DRV"
 #define AF_I2C_SLAVE_ADDR 0x18

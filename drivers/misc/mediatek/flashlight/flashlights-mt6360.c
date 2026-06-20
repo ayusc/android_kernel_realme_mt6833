@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2019 MediaTek Inc.
@@ -26,7 +30,6 @@
 #include "flashlight-dt.h"
 #ifdef OPLUS_FEATURE_CAMERA_COMMON
 #include "oplus/flashlight_custom.h"
-#include <soc/oplus/system/oplus_project.h>
 #endif
 /* device tree should be defined in flashlight-dt.h */
 #ifndef MT6360_DTNAME

@@ -1,3 +1,7 @@
+#define AGING 999
+#define PREVERSION 998
+#define HIGH_TEMP_AGING 997
+#define FACTORY 996
 /*
  * Copyright (C) 2017 MediaTek Inc.
  *
@@ -21,7 +25,6 @@
 #include "mclk/mclk.h"
 #include "regulator/regulator.h"
 #include "gpio/gpio.h"
-#include <soc/oplus/system/oplus_project.h>
 #include <soc/oplus/device_info.h>
 
 //#include <linux/of_gpio.h>
