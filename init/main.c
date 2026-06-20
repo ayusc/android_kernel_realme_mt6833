@@ -104,7 +104,6 @@
 #include <trace/events/initcall.h>
 
 #ifdef OPLUS_FEATURE_PHOENIX
-#include "../drivers/soc/oplus/system/oplus_phoenix/oplus_phoenix.h"
 #endif  //OPLUS_FEATURE_PHOENIX
 
 static int kernel_init(void *);
