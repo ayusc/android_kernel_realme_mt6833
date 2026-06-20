@@ -1,3 +1,5 @@
+#define SA_TYPE_TURBO 0
+static int ux_uclamp_value = 0;
 /*
  *  kernel/sched/core.c
  *
@@ -33,7 +35,6 @@
 #endif /* CONFIG_MTK_QOS_FRAMEWORK */
 
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-#include <linux/sched_assist/sched_assist_common.h>
 #endif /* OPLUS_FEATURE_SCHED_ASSIST */
 #if defined(OPLUS_FEATURE_SCHED_ASSIST) && defined(CONFIG_SCHED_WALT)
 #include <linux/sched_assist/sched_assist_slide.h>

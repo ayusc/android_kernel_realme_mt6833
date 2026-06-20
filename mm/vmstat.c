@@ -1,3 +1,4 @@
+static const int proc_free_area_fops = 0;
 /*
  *  linux/mm/vmstat.c
  *
@@ -31,7 +32,6 @@
 #include "internal.h"
 
 #if defined(OPLUS_FEATURE_MULTI_FREEAREA) && defined(CONFIG_PHYSICAL_ANTI_FRAGMENTATION)
-#include "multi_freearea.h"
 #endif
 
 #define NUMA_STATS_THRESHOLD (U16_MAX - 2)

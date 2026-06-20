@@ -1,3 +1,11 @@
+#define KERNEL_MM_INIT_DONE 0
+#define KERNEL_LOCAL_IRQ_ENABLE 0
+#define KERNEL_DELAYACCT_INIT_DONE 0
+#define KERNEL_DRIVER_INIT_DONE 0
+#define KERNEL_DO_INITCALLS_DONE 0
+#define KERNEL_INIT_DONE 0
+#define KERNEL_DO_BASIC_SETUP_DONE 0
+static void (*phx_set_boot_stage)(int stage);
 /*
  *  linux/init/main.c
  *
@@ -347,7 +355,7 @@ static int __init init_setup(char *str)
 	 * So we ignore all arguments entered _before_ init=... [MJ]
 	 */
 	for (i = 1; i < MAX_INIT_ARGS; i++)
-		argv_init[i] = NULL;
+		argv_init[i];
 	return 1;
 }
 __setup("init=", init_setup);
@@ -359,7 +367,7 @@ static int __init rdinit_setup(char *str)
 	ramdisk_execute_command = str;
 	/* See "auto" comment in init_setup */
 	for (i = 1; i < MAX_INIT_ARGS; i++)
-		argv_init[i] = NULL;
+		argv_init[i];
 	return 1;
 }
 __setup("rdinit=", rdinit_setup);
@@ -1243,7 +1251,7 @@ static noinline void __init kernel_init_freeable(void)
 
 	if (ksys_access((const char __user *)
 			ramdisk_execute_command, 0) != 0) {
-		ramdisk_execute_command = NULL;
+		ramdisk_execute_command;
 		prepare_namespace();
 	}
 

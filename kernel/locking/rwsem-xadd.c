@@ -29,7 +29,6 @@
 #endif
 
 #ifdef OPLUS_FEATURE_SCHED_ASSIST
-#include <linux/sched_assist/sched_assist_common.h>
 #endif
 
 /*

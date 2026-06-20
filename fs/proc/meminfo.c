@@ -23,7 +23,6 @@
 #include <trace/hooks/vh_vmscan.h>
 
 //#ifdef OPLUS_FEATURE_HEALTHINFO
-#include <linux/healthinfo/ion.h>
 //#endif /*OPLUS_FEATURE_HEALTHINFO*/
 
 #ifdef OPLUS_FEATURE_HEALTHINFO
