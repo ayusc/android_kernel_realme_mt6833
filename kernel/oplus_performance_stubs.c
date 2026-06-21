@@ -1,4 +1,3 @@
-// NO HEADERS! Hides dummy functions from real prototype definitions
 #pragma GCC diagnostic ignored "-Wstrict-prototypes"
 #pragma GCC diagnostic ignored "-Wmissing-prototypes"
 #pragma GCC diagnostic ignored "-Wreturn-type"
@@ -8,7 +7,6 @@ void *proc_ux_state_operations = 0;
 long ion_total = 0;
 int ux_sched_cputopo = 0;
 
-// --- PREVIOUS BATCH ---
 long init_task_ux_info() { return 0; }
 long phx_is_phoenix_boot_completed() { return 1; }
 long is_critial_process() { return 0; }
@@ -47,7 +45,6 @@ long ajust_zone_label() { return 0; }
 long is_reclaim_should_cancel() { return 0; }
 long sched_assist_target_comm() { return 0; }
 
-// --- NEW BATCH: PMIC, CHARGING, USB ---
 long oplus_chg_check_break() { return 0; }
 long oplus_chg_track_check_wired_charging_break() { return 0; }
 long oplus_otgctl_by_buckboost() { return 0; }
@@ -70,7 +67,6 @@ long is_fuelgauge_apply() { return 0; }
 long oplus_get_chg_unwakelock() { return 0; }
 long oplus_gauge_set_event() { return 0; }
 
-// --- NEW BATCH: SENSORS, CAMERA, NFC ---
 long virtual_sensor_report_data() { return 0; }
 long oplus_init_sensor_state() { return 0; }
 long mm_keylog_write_modemdump() { return 0; }
@@ -88,7 +84,6 @@ long oplus_chg_set_camera_status() { return 0; }
 long is_support_chip() { return 1; }
 long register_device_proc_for_ufsplus() { return 0; }
 
-// --- NEW BATCH: BINDER & UI ---
 long binder_unset_inherit_ux() { return 0; }
 long binder_set_inherit_ux() { return 0; }
 long is_sf() { return 0; }
@@ -98,7 +93,6 @@ long set_once_ux() { return 0; }
 long ux_debug_enable() { return 0; }
 long ux_debug_systrace_c() { return 0; }
 
-// --- NEW BATCH: AUDIO (AW87339 / SIA81XX) ---
 long aw87339_audio_spk_if_kspk() { return 0; }
 long aw87339_audio_spk_if_off() { return 0; }
 long aw87339_audio_rcv_if_kspk() { return 0; }
